@@ -1,0 +1,23 @@
+SYSTEM = Isolated H2O molecule (PBE+D3)
+
+ENCUT  = 400
+PREC   = Normal
+ALGO   = Normal
+NELM   = 200
+EDIFF  = 1E-6
+
+IBRION = 2
+NSW    = 100
+ISIF   = 2
+ISYM   = 0
+EDIFFG = -0.01
+
+ISMEAR = 0
+SIGMA  = 0.05
+
+IVDW   = 11
+IDIPOL = 4
+LDIPOL = .TRUE.
+
+LWAVE  = .FALSE.
+LCHARG = .FALSE.

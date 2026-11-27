@@ -1,0 +1,1 @@
+mpirun -np 16 /home/VASP6/vasp.6.4.2/bin/vasp_std > log1
