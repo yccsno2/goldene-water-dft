@@ -1,12 +1,47 @@
-﻿site_name: Goldene 單層水分子吸附與催化專題
+﻿site_name: 水分子於金烯表面之吸附行為與催化機制：第一性原理研究
+site_description: First-Principles Study on the Adsorption Behavior and Catalytic Mechanism of Water Molecules on Goldene
+site_author: 物理四 411214215 葉仲傑
+
 theme:
   name: material
   language: zh-TW
+  palette:
+    - scheme: default
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: 切換至深色模式
+    - scheme: slate
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: 切換至淺色模式
+  features:
+    - navigation.top
+    - content.code.copy
+
 nav:
   - 專題首頁: index.md
+  - 摘要: abstract.md
+  - 原理: theory.md
+  - 動機: motivation.md
+  - 目的: objectives.md
+  - 實驗方法: methodology.md
+  - 實驗設定: setup.md
+  - 實驗數據: data.md
+  - 數據分析: analysis.md
+  - 結論: conclusion.md
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
   - tables
+  - admonition
+
 extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

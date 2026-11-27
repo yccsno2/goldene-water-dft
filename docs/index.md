@@ -1,13 +1,13 @@
-﻿# Goldene 單層表面水分子吸附與解離之第一原理研究
+﻿# 水分子於金烯表面之吸附行為與催化機制：第一性原理研究
 
-本專題採用 VASP（PBE+D3）計算 $\text{H}_2\text{O}$ 在 36 原子 Goldene 單層不同位點之吸附能：
+**First-Principles Study on the Adsorption Behavior and Catalytic Mechanism of Water Molecules on Goldene**
 
-$$E_{\text{ads}} = E_{\text{slab+mol}} - E_{\text{slab}} - E_{\text{mol}}$$
+!!! info "專題資訊"
+    * **製作人**：物理四 411214215 葉仲傑
+    * **指導教授**：張俊明老師
 
-## 吸附位點計算結果
+---
 
-| 吸附位點 | 吸附能 $E_{\text{ads}}$ (eV) | O–Au 距離 (Å) |
-| :--- | :--- | :--- |
-| Top | 待填入 | 待填入 |
-| Bridge | 待填入 | 待填入 |
-| Hollow | 待填入 | 待填入 |
+## 專題導覽
+
+本網站記錄並展示以第一原理密度泛函理論（DFT）探討二維單原子層金（**Goldene**）表面對水分子（$\text{H}_2\text{O}$）之吸附行為與催化反應機制的研究成果。請透過左側目錄點選各章節查閱詳細內容。
