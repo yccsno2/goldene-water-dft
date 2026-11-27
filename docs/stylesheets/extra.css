@@ -1,17 +1,18 @@
-﻿/* 強制固定所有分頁的左側目錄字體大小 */
-.md-nav--primary .md-nav__link,
-.md-nav--primary .md-nav__item .md-nav__link,
-.md-nav--primary .md-nav__item--active > .md-nav__link {
+/* Lock left sidebar font size across all pages and sub-levels */
+.md-sidebar--primary .md-nav__title,
+.md-sidebar--primary .md-nav__link,
+.md-sidebar--primary .md-nav__link span,
+.md-sidebar--primary label.md-nav__link {
   font-size: 1rem !important;
   line-height: 1.6 !important;
 }
 
-/* 將所有分頁的主標題（H1）改為純黑色 */
+/* Set all page H1 titles to pure black */
 [data-md-color-scheme="default"] .md-typeset h1 {
   color: #000000 !important;
 }
 
-/* 放大首頁製作人與指導教授文字 */
+/* Enlarge author and advisor text on homepage */
 .author-info {
   font-size: 1.35rem;
   line-height: 2.2;
