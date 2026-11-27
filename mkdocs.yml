@@ -22,6 +22,9 @@ theme:
     - navigation.top
     - content.code.copy
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - 專題首頁: index.md
   - 摘要: abstract.md

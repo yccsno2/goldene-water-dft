@@ -1,0 +1,12 @@
+﻿/* 放大左側主目錄字體與行距 */
+.md-nav--primary .md-nav__link {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* 放大首頁製作人與指導教授文字 */
+.author-info {
+  font-size: 1.35rem;
+  line-height: 2.2;
+  margin-top: 2rem;
+}
