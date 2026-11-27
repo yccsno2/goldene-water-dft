@@ -1,4 +1,4 @@
-/* Lock left sidebar font size across all pages and sub-levels */
+/* 鎖定所有分頁與子層級的左側目錄字體大小 */
 .md-sidebar--primary .md-nav__title,
 .md-sidebar--primary .md-nav__link,
 .md-sidebar--primary .md-nav__link span,
@@ -7,12 +7,21 @@
   line-height: 1.6 !important;
 }
 
-/* Set all page H1 titles to pure black */
-[data-md-color-scheme="default"] .md-typeset h1 {
+/* 將所有分頁主標題（H1）與左側頂端標題改為純黑色 */
+.md-typeset h1,
+.md-content__inner h1,
+.md-sidebar--primary .md-nav__title {
   color: #000000 !important;
 }
 
-/* Enlarge author and advisor text on homepage */
+/* 切換至深色模式時維持白色標題 */
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-content__inner h1,
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__title {
+  color: #ffffff !important;
+}
+
+/* 放大首頁製作人與指導教授文字 */
 .author-info {
   font-size: 1.35rem;
   line-height: 2.2;
