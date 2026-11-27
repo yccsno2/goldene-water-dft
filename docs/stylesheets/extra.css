@@ -6,6 +6,11 @@
   line-height: 1.6 !important;
 }
 
+/* 將所有分頁的主標題（H1）改為純黑色 */
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: #000000 !important;
+}
+
 /* 放大首頁製作人與指導教授文字 */
 .author-info {
   font-size: 1.35rem;
