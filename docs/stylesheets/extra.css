@@ -1,7 +1,9 @@
-﻿/* 放大左側主目錄字體與行距 */
-.md-nav--primary .md-nav__link {
-  font-size: 0.95rem;
-  line-height: 1.6;
+﻿/* 強制固定所有分頁的左側目錄字體大小 */
+.md-nav--primary .md-nav__link,
+.md-nav--primary .md-nav__item .md-nav__link,
+.md-nav--primary .md-nav__item--active > .md-nav__link {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
 }
 
 /* 放大首頁製作人與指導教授文字 */
