@@ -14,3 +14,6 @@ PCDAT
 XDATCAR
 REPORT
 site/
+
+vaspout.h5
+IBZKPT

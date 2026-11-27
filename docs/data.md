@@ -1,8 +1,8 @@
 ﻿# 實驗數據
 
-## VASP 計算原始輸入與收斂結構檔（Repository Archive）
+## VASP 計算輸入與收斂結構檔
 
-點擊下方連結可直接檢視或下載各計算系統之 `INCAR`、`KPOINTS`、`POSCAR`、`CONTCAR` 與 `OSZICAR`：
+點擊下方連結可直接檢視或下載各系統之 `INCAR`、`KPOINTS`、`POSCAR`、`CONTCAR` 與 `OSZICAR`：
 
 * **基底與氣相分子**：[goldene](https://github.com/yccsno2/goldene-water-dft/tree/main/calculations/goldene) ｜ [goldene_relax](https://github.com/yccsno2/goldene-water-dft/tree/main/calculations/goldene_relax) ｜ [water](https://github.com/yccsno2/goldene-water-dft/tree/main/calculations/water)
 * **水分子初始吸附態**：[istop](https://github.com/yccsno2/goldene-water-dft/tree/main/calculations/istop) ｜ [isbridge](https://github.com/yccsno2/goldene-water-dft/tree/main/calculations/isbridge) ｜ [ishollow](https://github.com/yccsno2/goldene-water-dft/tree/main/calculations/ishollow)
